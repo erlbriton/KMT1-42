@@ -1,55 +1,47 @@
-# Prerequisites
-*.d
+# Altium Designer Ignore List
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Папки с историей и предпросмотром (Критически важно!)
+History/
+__Previews/
+Project Logs for */
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Файлы проектов и библиотек, которые являются временными
+*.PrjPCB.bak
+*.PrjPcb.RCS
+*.PcbDoc.bak
+*.SchDoc.bak
+*.OutJob.bak
+*.ddb.bak
+*.dch
+*.~(1)*
+*.~(2)*
+*.lck
 
-# Precompiled Headers
-*.gch
-*.pch
+# Файлы отчетов и компиляции
+*.log
+*.drc
+*.cmp
+*.rpt
+*.csv
+*.htm
+*.html
+*.pdf
+*.xml
+*.sch_erc
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Файлы, генерируемые при трассировке (Gerber, NC Drill и т.п.)
+*.Gb*
+*.GBL
+*.GTL
+*.GKO
+*.GM*
+*.GP*
+*.GT*
+*.drl
+*.gtd
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# Прочие временные и пользовательские настройки
+*.apr
+*.ndb
+*User.ini
+*Project.Preference
