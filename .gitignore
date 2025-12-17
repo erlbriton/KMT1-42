@@ -45,3 +45,7 @@ Project Logs for */
 *.ndb
 *User.ini
 *Project.Preference
+*.PrjPcbStructure
+History/
+__Previews/
+Librares/
